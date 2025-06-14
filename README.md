@@ -19,7 +19,7 @@ A full-stack application that allows users to create fictional characters and ge
 
 
 ## 🏗️ Folder Structure
-
+```bash
 project-root/
 │
 ├── backend/
@@ -38,7 +38,7 @@ project-root/
 │
 ├── .gitignore
 ├── README.md
-
+```
 
 ## ⚙️ Setup Instructions
 
