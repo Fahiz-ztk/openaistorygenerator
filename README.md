@@ -43,29 +43,31 @@ project-root/
 ## ⚙️ Setup Instructions
 
 1. Clone the Repository
-
+`
 git clone https://github.com/Fahiz-ztk/openaistorygenerator.git
 cd openaistorygenerator
+`
 
-2. Set Up the Backend
+3. Set Up the Backend
 
 Create .env file inside backend/:
-
+`
 SUPABASE_URL=supabase-url
 SUPABASE_KEY=supabase-anon-key
 OPENAI_API_KEY=openai-api-key
-
+`
 Install dependencies and run:
-
+`
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
-
+`
 3. Set Up the Frontend
-
+`
 cd frontend/Lsquaredfront
 npm install
 npm run dev
+`
 The React app will run on http://localhost:5173
 
 🧪 Test the APIs with Curl
